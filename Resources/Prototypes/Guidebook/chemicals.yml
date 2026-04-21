@@ -13,6 +13,7 @@
   - Biological
   - Special
   - Others
+  - Silly
   filterEnabled: True
 
 - type: guideEntry
@@ -68,3 +69,8 @@
   name: guide-entry-others
   text: "/ServerInfo/Guidebook/ChemicalTabs/Other.xml"
   filterEnabled: True
+
+- type: guideEntry
+  id: Silly
+  name: guide-entry-silly
+  text: "/ServerInfo/Guidebook/ChemicalTabs/Silly.xml"
