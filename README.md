@@ -2,11 +2,11 @@
 <img width="1091" height="408" alt="image" src="https://github.com/user-attachments/assets/4304e1f7-c0ba-45f2-85be-421a0c95e549" />
 </div>
 
-Silly Station 14 is a remake of SS14 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox), our homegrown engine written in C#.
+Silly Station 14 is a fork of SS14 that runs on [Robust Toolbox](https://github.com/space-wizards/RobustToolbox).
 
 This is the primary repo for Silly Station 14. To prevent people forking RobustToolbox, a "content" pack is loaded by the client and server. This content pack contains everything needed to play the game on one specific server.
 
-If you want to host or create content for SS14, this is NOT the repo you need. It contains both RobustToolbox and the content pack for development of new content packs.
+If you want to host or create content for SS14, this is NOT the repo you need.
 
 ## Links
 
