@@ -70,8 +70,9 @@
       emergencyLightColor: DarkViolet
       forceEnableEmergencyLights: true
       shuttleTime: 1200
-    SILLY:
+    silly:
       announcement: alert-level-silly-announcement
+      selectable: true
       sound: /Audio/Misc/GATORADE.ogg
       color: HotPink
       emergencyLightColor: HotPink
