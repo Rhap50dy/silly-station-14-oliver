@@ -89,10 +89,10 @@
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
-    maxIntensity: 3.4
-    intensitySlope: 3
-    totalIntensity: 20
-    canCreateVacuum: false
+    maxIntensity: 100
+    intensitySlope: 50
+    totalIntensity: 300
+    canCreateVacuum: true
   - type: DeleteOnTrigger
   - type: AnimationPlayer
   - type: Damageable
@@ -102,7 +102,7 @@
     thresholds:
     - trigger:
         !type:DamageTrigger
-        damage: 10
+        damage: 10000
       behaviors:
       - !type:TriggerBehavior
       - !type:DoActsBehavior
