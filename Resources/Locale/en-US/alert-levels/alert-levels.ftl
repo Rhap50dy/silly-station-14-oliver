@@ -34,3 +34,7 @@ alert-level-delta-instructions = Crewmembers are advised to listen to heads of s
 alert-level-epsilon = Epsilon
 alert-level-epsilon-announcement = Central Command has ordered the Epsilon security level on the station. Consider all contracts terminated.
 alert-level-epsilon-instructions = Consider all contracts terminated.
+
+alert-level-silly = SILLY
+alert-level-silly-announcement = Something extremely *silly* has happened on the station.
+alert-level-silly-instructions = If you are frightned and unsure of the best course of action, try repeatedly meowing, or violently killing the person nearest to you. :3
