@@ -1,0 +1,31 @@
+- type: reagent
+  id: SillyFent
+  name: reagent-name-silly-fent
+  group: Silly
+  desc: reagent-desc-silly-fent
+  physicalDesc: reagent-physical-desc-chalky
+  contrabandSeverity: Major
+  flavor: silly
+  color: "#CCC8CE"
+  boilingPoint: 400.0
+  meltingPoint: 170.0
+  metabolisms:
+    Bloodstream:
+      effects:
+      # Main effects
+      - !type:ModifyStatusEffect
+        conditions:
+        - !type:ReagentCondition
+          reagent: SillyFent
+          min: .1
+        effectProto: StatusEffectForcedSleeping
+        time: 10
+      # OD
+      - !type:HealthChange
+        conditions:
+        - !type:ReagentCondition
+          reagent: SillyFent
+          min: .1
+        damage:
+          types:
+            Shock: 500

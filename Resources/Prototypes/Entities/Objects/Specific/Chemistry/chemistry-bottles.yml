@@ -1207,6 +1207,21 @@
       - ReagentId: Sulfur
         Quantity: 30
 
+- type: entity
+  id: ChemistryBottleSillyFent
+  suffix: sillyfent
+  parent: BaseChemistryBottleFilled
+  components:
+  - type: Label
+    currentLabel: reagent-name-silly-fent
+  - type: SolutionContainerManager
+    solutions:
+      drink:
+        maxVol: 30
+        reagents:
+        - ReagentId: SillyFent
+          Quantity: 30
+
 # Entity tables
 - type: entityTable
   id: BasicReagentBottlesTable
@@ -1260,6 +1275,7 @@
     - id: ChemistryBottleOculine
     - id: ChemistryBottleCharcoal
     - id: ChemistryBottleLaughter
+    - id: ChemistryBottleSillyFent
 
 - type: entityTable
   id: AllMedicineReagentBottlesTable
@@ -1316,3 +1332,4 @@
     - id: ChemistryBottleUltravasculine
     - id: ChemistryBottleCharcoal
     - id: ChemistryBottleLaughter
+    - id: ChemistryBottleSillyFent

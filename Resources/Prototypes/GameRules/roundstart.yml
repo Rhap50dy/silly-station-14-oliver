@@ -29,9 +29,9 @@
   - type: SubGamemodes
     rules:
     - id: Thief
-      prob: 0.5
+      prob: 0.2
     - id: SubWizard
-      prob: 0.05
+      prob: 0.1
     - id: SubXenoborgs
       prob: 0.05
 
@@ -146,7 +146,7 @@
   id: Nukeops
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 2
   - type: LoadMapRule
     mapPath: /Maps/Nonstations/nukieplanet.yml
   - type: AntagSelection
@@ -185,7 +185,7 @@
   id: Traitor
   components:
   - type: GameRule
-    minPlayers: 5
+    minPlayers: 2
     delay:
       min: 240
       max: 420
@@ -215,7 +215,7 @@
   parent: [BaseGameRule, BaseRoundstartAntagRule]
   components:
   - type: GameRule
-    minPlayers: 25
+    minPlayers: 2
   - type: AntagSelection
     agentName: changeling-round-end-agent-name
     antags:
@@ -235,7 +235,7 @@
   parent: [BaseGameRule, BaseRoundstartAntagRule]
   components:
   - type: GameRule
-    minPlayers: 15
+    minPlayers: 2
   - type: RevolutionaryRule
   - type: AntagSelection
     selectionTime: PrePlayerSpawn
@@ -286,7 +286,7 @@
   id: Wizard
   components:
   - type: GameRule
-    minPlayers: 10
+    minPlayers: 2
   - type: DynamicRuleCost
     cost: 150
 
@@ -295,7 +295,7 @@
   parent: [ BaseGameRule, BaseRoundstartAntagRule]
   components:
   - type: GameRule
-    minPlayers: 20
+    minPlayers: 2
     delay:
       min: 600
       max: 900
@@ -349,7 +349,7 @@
   parent: BaseGameRule
   components:
   - type: GameRule
-    minPlayers: 5
+    minPlayers: 2
   - type: AntagSelection
     selectionTime: PrePlayerSpawn # Pre-selection before jobs; assignment doesn't really matter though, we only care about the pre-selection to block other antags.
     removeUponFailedSpawn: false
