@@ -1,0 +1,11 @@
+- type: reaction
+  id: SillyFent
+  reactants:
+    Nocturine:
+      amount: 1
+    SpaceDrugs:
+      amount: 1
+    Impedrezene:
+      amount: 1
+  products:
+    SillyFent: 3
