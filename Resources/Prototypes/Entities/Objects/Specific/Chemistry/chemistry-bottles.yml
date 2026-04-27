@@ -1214,7 +1214,7 @@
   components:
   - type: Label
     currentLabel: reagent-name-silly-fent
-  - type: SolutionContainerManager
+  - type: Solution
     solutions:
       drink:
         maxVol: 30
