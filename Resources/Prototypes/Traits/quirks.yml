@@ -24,3 +24,10 @@
   category: Quirks
   components:
   - type: Snoring
+
+- type: trait
+  id: Sillyness
+  name: trait-sillyness-name
+  description: trait-sillyness-desc
+  category: Quirks
+  traitGear: TrashBananaPeelExplosiveUnarmed
