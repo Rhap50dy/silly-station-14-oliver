@@ -33,6 +33,7 @@
   name: all-at-once-title
   description: all-at-once-description
   showInVote: false
+  minPlayers: 10
   rules:
     - Nukeops
     - Traitor
@@ -55,6 +56,7 @@
   name: aller-at-once-title
   description: aller-at-once-description
   showInVote: false #Please god dont do this
+  minPlayers: 10
   rules:
     - Nukeops
     - Traitor
