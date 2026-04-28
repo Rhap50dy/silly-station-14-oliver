@@ -146,7 +146,7 @@
   id: Nukeops
   components:
   - type: GameRule
-    minPlayers: 2
+    minPlayers: 3
   - type: LoadMapRule
     mapPath: /Maps/Nonstations/nukieplanet.yml
   - type: AntagSelection
@@ -340,7 +340,7 @@
   id: Xenoborgs
   components:
   - type: GameRule
-    minPlayers: 30
+    minPlayers: 2
 
 # This rule makes the chosen players unable to get other antag rules, as a way to prevent metagaming job rolls.
 # Put this before antags assigned to station jobs, but after non-job antags (NukeOps/Wiz).

@@ -1215,12 +1215,10 @@
   - type: Label
     currentLabel: reagent-name-silly-fent
   - type: Solution
-    solutions:
-      drink:
-        maxVol: 30
-        reagents:
-        - ReagentId: SillyFent
-          Quantity: 30
+    solution:
+      reagents:
+      - ReagentId: SillyFent
+        Quantity: 30
 
 # Entity tables
 - type: entityTable
