@@ -92,3 +92,8 @@
   license: "CC-BY-4.0"
   copyright: "Taken from freesound, edited by ketufaispikinut(GitHub)"
   source: "https://freesound.org/people/thecheeseman/sounds/51360/"
+
+- files: [GATORADE.ogg]
+  license: "CC-BY-SA-3.0"
+  copyright: "Created by Mati"
+  source: "https://github.com/Rhap50dy/silly-station-14-oliver/blob/Silly-Alert-Level/Resources/Audio/Misc/GATORADE.ogg"
